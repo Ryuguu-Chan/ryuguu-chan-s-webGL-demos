@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ryuguu Chan's webGL demo : 2D Squre Demo</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="../style/2dSquare.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="../style/2dSquarePhone.css" media="screen and (max-width:800px)" />
+		<link rel="icon" type="image/png" href="../img/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="../style/messageBox.css" media="all" />
+
+		<script src="../code/browser.js"></script>
+	</head>
+	<body>
+		<header>
+			<table id="pageTable">
+
+				<tr>
+					<td rowspan="10"><img class="demoImage" src="../img/demo00Thumb.png" title="2d square demo logo" /></td>
+					<td><h1>webGL's demo 01: 2d Square</h1></td>
+				</tr>
+					<td><h3 id="authorName">Made by Ogan Oezkul</h3>aka Ryuguu chan</td>
+				</tr>
+				<tr>
+					<td class="headerTableLinkSection">
+						<a href="https://github.com/Ryuguu-Chan": id="firstLink">Github</a>
+						<a href="https://twitter.com/ChanRyuguu">Twitter</a>
+						<a href="https://www.youtube.com/channel/UCV2tKTOiWjiU43kcMZsjLRA">YouTube</a>
+					</td>
+				</tr>
+			</table>
+		</header>
+		<div id="tactileArrowKeys">
+			<img src="../img/leftArrow.png" id="leftArrowKey" />
+			<img src="../img/rightArrow.png" id="rightArrowKey" />
+		</div>
+		<table id="instructionMessageBox">
+			<tr>
+				<th colspan="10">THE CONTROLS</th>
+			</tr>
+			<tr>
+				<td class="class1" id="rightArrowKeyText">Right Arrow Key</td>
+				<td class="class2">Rotate the square clockwise</td>
+			</tr>
+			<tr>
+				<td class="class1" id="leftArrowKeyText">Left Arrow Key</td>
+				<td class="class2">Rotate the square counter clockwise</td>
+			</tr>
+			<tr>
+				<td colspan="10" id="confirmationButton">OK</td>
+			</tr>
+		</table>
+		<script src="../code/ryuryuGFX/ryuryuGfx.js"></script>
+		<script src="../code/2dSquare.js"></script>
+	</body>
+</html>

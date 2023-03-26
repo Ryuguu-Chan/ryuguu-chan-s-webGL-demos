@@ -1,0 +1,68 @@
+/* +-------------------------------------+ */
+/* | MADE BY OGAN OEZKUL AKA RYUGUU CHAN | */
+/* +-------------------------------------+ */
+
+@keyframes messageBoxApparition {
+	from {
+		position: absolute;
+		top: 40%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+	}
+
+	to {
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 1;
+	}
+}
+
+#instructionMessageBox{
+	display: block;
+	background: linear-gradient(blue, darkblue);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border: solid 10px black;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	animation-name: messageBoxApparition;
+	animation-duration: 1s;
+
+	width: 400px;
+}
+
+th {
+	padding-bottom: 30px;
+	font-size: 30px;
+	text-shadow: 2px 2px 10px black;
+}
+
+#instructionMessageBox tr .class1 { text-align: left; }
+
+#instructionMessageBox tr .class2 { text-align: right; }
+
+#confirmationButton {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 0px 10px 5px black;
+	user-select: none;
+}
+
+#confirmationButton:hover {
+	position: relative;
+	top: 5px;
+	text-shadow: 0px 5px 5px black;
+}
+
+#confirmationButton:active {
+	position: relative;
+	top: 10px;
+	text-shadow: 0px 0px 5px black;
+}

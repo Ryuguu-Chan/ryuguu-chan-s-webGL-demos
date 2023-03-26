@@ -1,0 +1,33 @@
+html {
+	display: block;
+	position: absolute;
+	/* ok firefox */
+}
+
+#tactileArrowKeys {
+	display: block;
+}
+
+#tactileArrowKeys img {
+	width: 51px;
+	image-rendering: pixelated;
+}
+
+#pageTable {
+	width: 100%;
+	margin: 0;
+	border-width: 5px;
+}
+
+#tactileArrowKeys #leftArrowKey, #tactileArrowKeys #rightArrowKey {
+	position: relative;
+	top: 20px;
+}
+
+#tactileArrowKeys #leftArrowKey {
+	left: 20px;
+}
+
+#tactileArrowKeys #rightArrowKey {
+	left: 40px;
+}
